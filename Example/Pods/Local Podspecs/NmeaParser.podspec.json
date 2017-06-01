@@ -1,0 +1,22 @@
+{
+  "name": "NmeaParser",
+  "version": "0.1.0",
+  "summary": "A short description of NmeaParser.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/tweetjay/NmeaParser",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "tweetjay": "tweetjay2@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/tweetjay/NmeaParser.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "NmeaParser/Classes/**/*"
+}

@@ -1,0 +1,6 @@
+framework module Pods_NmeaParser_Tests {
+  umbrella header "Pods-NmeaParser_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
