@@ -10,17 +10,17 @@ import UIKit
 import NmeaParser
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         print(NmeaParser.parseSentence(data: "$GPRMC,031849.49,A,5209.028,N,00955.836,E,,,310517,,E*7D"))
     }
-
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
-
+    
 }
 
