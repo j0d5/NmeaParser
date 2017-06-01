@@ -1,0 +1,24 @@
+#sudo: false
+osx_image: xcode8.3
+
+language: objective-c
+
+before_install:
+  # - gem install cocoapods # -v '0.37.2'
+  # - brew update
+  # - brew outdated xctool || brew upgrade xctool
+  # - pod install
+  # - xctool --version
+
+# podfile: Podfile
+
+branches:
+only:
+  - master
+
+xcode_project: Example/Pods/Pods.xcodeproj
+xcode_scheme: NmeaParser
+xcode_sdk: iphonesimulator10.3
+# script:
+#  - xcodebuild -project NmeaParser.xcodeproj -scheme NmeaParser -sdk iphonesimulator -destination "name=iPhone SE"
+
