@@ -16,9 +16,9 @@ branches:
 only:
   - master
 
-xcode_project: Example/Pods/Pods.xcodeproj
-xcode_scheme: NmeaParser
-xcode_sdk: iphonesimulator10.3
-# script:
-#  - xcodebuild -project NmeaParser.xcodeproj -scheme NmeaParser -sdk iphonesimulator -destination "name=iPhone SE"
+# xcode_project: Example/Pods/Pods.xcodeproj
+# xcode_scheme: NmeaParser
+# xcode_sdk: iphonesimulator10.3
+script:
+  - xcodebuild -project Example/Pods/Pods.xcodeproj -scheme NmeaParser -sdk iphonesimulator -destination "name=iPhone SE"
 
