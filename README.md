@@ -5,9 +5,18 @@
 [![License](https://img.shields.io/cocoapods/l/NmeaParser.svg?style=flat)](http://cocoapods.org/pods/NmeaParser)
 [![Platform](https://img.shields.io/cocoapods/p/NmeaParser.svg?style=flat)](http://cocoapods.org/pods/NmeaParser)
 
-## Example
+This parser is a simple NMEA parser, which currently only supports the NMEA type RMC. It can be used to get the location
+data from an NMEA string. Assuming the string will look like this:
+`"$GPRMC,031849.49,A,5209.028,N,00955.836,E,,,310517,,E*7D"`
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+the NmeaParser will return an CLLocation object that contains the course, longitude and latitude.
+
+At the moment, this parser is very basic and under development. There is no guarantee that it will always deliver a valid
+location.
+
+## Usage
+
+Just call `NmeaParser.parseSentence(data: String) -> CLLocation`.
 
 ## Requirements
 
