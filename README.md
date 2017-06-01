@@ -31,7 +31,7 @@ pod "NmeaParser"
 
 ## Author
 
-tweetjay, tweetjay2@gmail.com
+Johannes Steudle, tweetjay2@gmail.com
 
 ## License
 
