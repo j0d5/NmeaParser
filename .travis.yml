@@ -1,5 +1,4 @@
-#sudo: false
-osx_image: xcode8.3
+osx_image: xcode9
 
 language: objective-c
 
@@ -21,4 +20,3 @@ only:
 # xcode_sdk: iphonesimulator10.3
 script:
   - xcodebuild -project Example/Pods/Pods.xcodeproj -scheme NmeaParser -sdk iphonesimulator -destination "name=iPhone SE"
-
