@@ -1,5 +1,5 @@
 PODS:
-  - Nimble (7.0.2)
+  - Nimble (7.0.3)
   - NmeaParser (0.1.0)
   - Quick (1.2.0)
 
@@ -13,10 +13,10 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  Nimble: bfe1f814edabba69ff145cb1283e04ed636a67f2
+  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
   NmeaParser: 229937ee0b5b1baefba977cd64960201dc92f9cf
   Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
 
 PODFILE CHECKSUM: a575b713e2facce4390ecf985aae10384f3212f7
 
-COCOAPODS: 1.4.0.beta.1
+COCOAPODS: 1.4.0.beta.2
