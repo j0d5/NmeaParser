@@ -125,8 +125,8 @@ public class RmcSentence: NmeaSentence {
     ///
     /// @return
     func convertLatitudeToDegree(with stringValue: String) -> Double {
-        return Double(stringValue.substring(to: String.Index.init(encodedOffset: 2)))! +
-            Double(stringValue.substring(from: String.Index.init(encodedOffset: 2)))! / 60
+        return Double(stringValue.prefix(2))! +
+            Double(stringValue.suffix(from: String.Index.init(encodedOffset: 2)))! / 60
     }
     
     /// Format XXYY.ZZZZ -> XX° + (YY.ZZZZ / 60)°
@@ -135,7 +135,7 @@ public class RmcSentence: NmeaSentence {
     ///
     /// @return
     func convertLongitudeToDegree(with stringValue: String) -> Double {
-        return Double(stringValue.substring(to: String.Index.init(encodedOffset: 3)))! +
-            Double(stringValue.substring(from: String.Index.init(encodedOffset: 3)))! / 60
+        return Double(stringValue.prefix(3))! +
+            Double(stringValue.suffix(from: String.Index.init(encodedOffset: 3)))! / 60
     }
 }
