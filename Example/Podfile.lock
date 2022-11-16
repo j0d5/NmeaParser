@@ -1,22 +1,27 @@
 PODS:
-  - Nimble (7.0.3)
-  - NmeaParser (0.1.1)
-  - Quick (1.2.0)
+  - Nimble (10.0.0)
+  - NmeaParser (0.1.2)
+  - Quick (5.0.1)
 
 DEPENDENCIES:
   - Nimble
   - NmeaParser (from `../`)
   - Quick
 
+SPEC REPOS:
+  trunk:
+    - Nimble
+    - Quick
+
 EXTERNAL SOURCES:
   NmeaParser:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  Nimble: 7f5a9c447a33002645a071bddafbfb24ea70e0ac
-  NmeaParser: 99aeb52fbc1bebb39e65240b062a2807680a6ba0
-  Quick: 58d203b1c5e27fff7229c4c1ae445ad7069a7a08
+  Nimble: 5316ef81a170ce87baf72dd961f22f89a602ff84
+  NmeaParser: 691d485a33695493f296e0464725308df21bc651
+  Quick: 749aa754fd1e7d984f2000fe051e18a3a9809179
 
-PODFILE CHECKSUM: a575b713e2facce4390ecf985aae10384f3212f7
+PODFILE CHECKSUM: 935eae608a945359d80286d56a13dfde03acab16
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.11.3

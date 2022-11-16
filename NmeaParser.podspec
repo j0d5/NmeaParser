@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'NmeaParser'
-  s.version          = '0.1.1'
+  s.version          = '0.1.2'
   s.summary          = 'This is a simple NMEA parser.'
 
 # This description is used to generate tags and improve search results.
@@ -29,7 +29,7 @@ the NmeaParser will return an CLLocation object that contains the course, longit
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'tweetjay' => 'tweetjay2@gmail.com' }
-  s.source           = { :git => 'https://github.com/tweetjay/NmeaParser.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/j0d5/NmeaParser.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/tweetjay2'
 
   s.ios.deployment_target = '12.0'
