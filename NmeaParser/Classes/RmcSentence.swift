@@ -101,7 +101,7 @@ public class RmcSentence: NmeaSentence {
         let dateFormatter = DateFormatter()
         dateFormatter.timeZone = TimeZone(identifier: "GMT")
         if rawDate.isEmpty {
-            dateFormatter.dateFormat = "hhmmss.SSS" // 025816.16
+            dateFormatter.dateFormat = "HHmmss.SSS" // 025816.16
         } else {
             dateFormatter.dateFormat = "ddMMyyHHmmss.SSS"
         }
