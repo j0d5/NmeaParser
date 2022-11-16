@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "6481D5CB0BC8208C2D81F13715519F77"
-               BuildableName = "NmeaParser.framework"
-               BlueprintName = "NmeaParser"
+               BlueprintIdentifier = "A6609AB48B7DB7E19CBBBA385D94C558"
+               BuildableName = "Pods_NmeaParser_Tests.framework"
+               BlueprintName = "Pods-NmeaParser_Tests"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -26,17 +26,7 @@
       buildConfiguration = "Debug"
       selectedDebuggerIdentifier = "Xcode.DebuggerFoundation.Debugger.LLDB"
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
-      shouldUseLaunchSchemeArgsEnv = "YES"
-      codeCoverageEnabled = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6481D5CB0BC8208C2D81F13715519F77"
-            BuildableName = "NmeaParser.framework"
-            BlueprintName = "NmeaParser"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
+      shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
    </TestAction>
@@ -50,15 +40,6 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
-         <BuildableReference
-            BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6481D5CB0BC8208C2D81F13715519F77"
-            BuildableName = "NmeaParser.framework"
-            BlueprintName = "NmeaParser"
-            ReferencedContainer = "container:Pods.xcodeproj">
-         </BuildableReference>
-      </MacroExpansion>
    </LaunchAction>
    <ProfileAction
       buildConfiguration = "Release"
@@ -69,9 +50,9 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "6481D5CB0BC8208C2D81F13715519F77"
-            BuildableName = "NmeaParser.framework"
-            BlueprintName = "NmeaParser"
+            BlueprintIdentifier = "A6609AB48B7DB7E19CBBBA385D94C558"
+            BuildableName = "Pods_NmeaParser_Tests.framework"
+            BlueprintName = "Pods-NmeaParser_Tests"
             ReferencedContainer = "container:Pods.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
